@@ -44,13 +44,49 @@ At the time of writing (10.11.2016) you should use one of the following versions
   - If you want to test how well your language and OTF features are supported.
   - If you want to test the speed improvements.
 
+you can use a stable and a development version of scribus alongside on the same machine.
+
+but the file you have saved with 1.5 won't open anymore with 1.4.  
+only work on backups of existing files or be ready to start from scratch 
+
 ## Where to get Scribus?
 
 ### Scribus for Windows
 
+#### The latest released development snapshot
+
+#### The current development version
+
+https://sourceforge.net/projects/scribus/files/scribus-svn/1.5.3.svn/
+
 ### Scribus for OS X
 
+#### The latest released development snapshot
+
+#### The current development version
+
+https://sourceforge.net/projects/scribus/files/scribus-svn/1.5.3.svn/
+
 ### Scribus for Linux
+
+#### Getting the current development version
+
+For Ubuntu:
+
+https://launchpad.net/~scribus/+archive/ubuntu/ppa
+
+For most linuxes:
+
+https://bintray.com/probono/AppImages/Scribus
+
+An AppImage is a container that contains all what is needed to run Scribus on your Linux computer: Download it, make it executable and run it.
+
+See the Appimage website for more details: http://appimage.org/
+
+
+
+
+
 
 ### Scribus for other OSes
 
