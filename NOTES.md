@@ -81,7 +81,8 @@ https://bintray.com/probono/AppImages/Scribus
 
 An AppImage is a container that contains all what is needed to run Scribus on your Linux computer: Download it, make it executable and run it.
 
-See the Appimage website for more details: http://appimage.org/
+See the Appimage website for more details: http://appimage.org/  
+Or (this longer Stackoverflow article](http://askubuntu.com/questions/774490/what-is-an-appimage-how-do-i-install-it)
 
 
 
