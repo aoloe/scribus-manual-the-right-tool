@@ -84,9 +84,9 @@ An AppImage is a container that contains all what is needed to run Scribus on yo
 See the Appimage website for more details: http://appimage.org/  
 Or (this longer Stackoverflow article](http://askubuntu.com/questions/774490/what-is-an-appimage-how-do-i-install-it)
 
+Notes:
 
-
-
+- You might need to set `$PYTHONHOME` to your local python install (as an example in a script that will first set the value and then launch the appimage).
 
 
 ### Scribus for other OSes
