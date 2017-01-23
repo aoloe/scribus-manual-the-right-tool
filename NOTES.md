@@ -134,3 +134,32 @@ The remarks concerning 1.5.2 are also valid for 1.5.3svn, except if spefically n
 - OTF features (ligatures, stylistic alternates, ...)
 
 Please write bug reports to https://github.com/HOST-Oman/scribus/issues
+
+## Editing a PDF
+
+Scribus can read PDF files but is not a PDF editor.  
+It's not the right tool for tweaking little bits of text in a PDF.
+
+Also, PDF is not a format that is meant to be further edited.  
+But, if I had to modify one, I would first try Inkscape.  
+Then LibreOffice Writer / Draw.  
+In the past I've used flpsed, but i'm not sure I would still use it.
+
+That being said:
+
+- If you're using a stable Scribus 1.4.x, all you can do is:
+  - load the PDF as a background image on a page (put a full page image frame behind everything),
+  - cover the old text with a white rectangle and
+  - retype the text.
+
+  Slightly better than tipexing on paper.
+
+- If you're working with a development Scribus 1.5.x (or later)
+  - you can load the PDF page as a vector,
+  - remove the old text and
+  - type the new text.
+
+  But
+  - The text will always be vectorized on import (no real editing is possible) and
+  - it won't reflow.
+
