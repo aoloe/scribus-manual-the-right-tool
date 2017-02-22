@@ -49,6 +49,16 @@ you can use a stable and a development version of scribus alongside on the same 
 but the file you have saved with 1.5 won't open anymore with 1.4.  
 only work on backups of existing files or be ready to start from scratch 
 
+### Using a development version
+
+In most cases, if you're using a development version, you should try to keep your software up to date.
+
+But you should always keep a copy of the last version of Scribus you know did work for you.
+
+Generally speaking, new versions of scribus can read older files.  
+The upgrade from 1.5.2 to 1.5.3 has an exception (that will probably still be true when 1.6 will be released): text  in documents created with older versions of Scribus can look different.  
+But -- most of the time -- older versions cannot read files created with newer versions.
+
 ## Where to get Scribus?
 
 ### Scribus for Windows
