@@ -26,23 +26,30 @@ die andere sind ein bisschen ein risiko, da sie bugs haben können, die nur lang
 (und wenn jemand es nicht schafft, scribus zu kompilieren, der wird vermutlich auch nicht den geduld haben, mit eine entwicklerversion zu arbeiten).
 aber es gibt leute die glücklich mit den scribus-devel versionen arbeiten.
 
+### Where are the downloads?
+
+the link on the "development" download on the scribus page sends you to the "scribus-devel" sourceforge directory. this directory contains the development releases.
+
+if you click "parent folder" until you get to a list of directories containing "scribus-svn" you will be able to get into that directory and find the directory with the current development code (right now it's "1.5.4svn".
+
+in that directory there will be a bunch of downloadable files for linux, mac and windows.
+you will have to pick the one that matches your needs.
+
 ### Currently suggested versions
 
 At the time of writing (10.11.2016) you should use one of the following versions:
 
 - The stable version, Scribus 1.4.6: if you're starting with Scribus or you're sharing your files with other Scribus users. Or if you don't have good reasons for using something else.
-- The latest development release, Scribus 1.5.2:
+- The latest development release, Scribus 1.5.3:
   - If you have been using Scribus for some time and hit some issues that you know have been solved in the development version.
   - If you you're evaluation Scribus for future use (but you should also evaluate 1.4, since the release date for 1.6 is still unknown).
   - If you are used to work with unstable programs and are ready to write bug reports to help the developers improve Scribus.
+- The latest development snapshot, Scribus 1.5.4svn
+  - If you need the advanced OTF features (typographic features, arabic or hindic languages)
 - The current development code (svn, git):
   - If you're contributing to the Scribus development.
   - If you need features that have been added very recently.
-  - In the near future, it's very likely that the merge of the CTL branch will make the development version unstable.
-- The Scribus CTL branch
-  - Don't use it in production. Ever.
-  - If you want to test how well your language and OTF features are supported.
-  - If you want to test the speed improvements.
+
 
 you can use a stable and a development version of scribus alongside on the same machine.
 
@@ -131,19 +138,17 @@ Notes:
 - _"Welding"_: relative position between items (hard to grock; limited functionality; not tested in production yet)
 - _Snap to Items_
 
-### Scribus 1.5.3svn
+### Scribus 1.5.3
 
 The remarks concerning 1.5.2 are also valid for 1.5.3svn, except if spefically noted.
 
 - Footnotes: please test the improvements, but use in production with much care
-
-### Scribus 1.5.3 CTL
-
-- Don't use it in production.
 - Complex Text Lyout (CTL): full support for CTL languages is being implemented. We need tests with Arabic, Indic and CJK languages.
 - OTF features (ligatures, stylistic alternates, ...)
 
-Please write bug reports to https://github.com/HOST-Oman/scribus/issues
+### Scribus 1.5.4 svn
+
+- Don't use it in production.
 
 ## Editing a PDF
 
