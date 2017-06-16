@@ -178,3 +178,11 @@ That being said:
   - The text will always be vectorized on import (no real editing is possible) and
   - it won't reflow.
 
+## Creating a flyer
+
+Scribus can be a good for designing flyers.
+
+Depending on the type of flyer Scribus, Inkscape, or eventually Gimp might be more appriopriate, but with each of them you will get to a usable result.
+
+- Scribus is often better a better match, if you're picky about the colors (spot colors? a mandatory visual identity) or if you have lot of text.
+- Inkscape will better fit if you have a lot of vector graphics and if you're drawing the vectors while creating the flyer.
